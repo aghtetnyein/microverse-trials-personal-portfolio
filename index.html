@@ -3,11 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <title>Fork Me! FCC: Test Suite Template</title>
+    <link rel="stylesheet" href="css/styles.css" />
     <link
       rel="stylesheet"
-      href="path/to/font-awesome/css/font-awesome.min.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
     />
-    <link rel="stylesheet" href="css/styles.css" />
 
     <!-- scripts -->
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
@@ -15,23 +15,60 @@
   </head>
 
   <body>
-    <nav class="fixed px-8 bg-red-500 flex justify-end w-screen">
-      <div class="py-4 px-4 cursor-pointer hover:bg-indigo-500">
+    <nav id="navbar" class="fixed px-8 bg-red-500 flex justify-end w-screen">
+      <a href="/about" class="py-4 px-4 cursor-pointer hover:bg-indigo-500">
         <p class="text-lg text-white">About</p>
-      </div>
-      <div class="py-4 px-4 cursor-pointer hover:bg-indigo-500">
+      </a>
+      <a href="/work" class="py-4 px-4 cursor-pointer hover:bg-indigo-500">
         <p class="text-lg text-white">Work</p>
-      </div>
-      <div class="py-4 px-4 cursor-pointer hover:bg-indigo-500">
+      </a>
+      <a href="/contact" class="py-4 px-4 cursor-pointer hover:bg-indigo-500">
         <p class="text-lg text-white">Contact</p>
-      </div>
+      </a>
     </nav>
+
+    <section
+      id="profile-link"
+      class="w-screen h-screen bg-gray-800 flex flex-col justify-center items-center"
+    >
+      <a href="https://github.com/aghtetnyein"
+        ><h1 class="text-5xl text-white font-bold">
+          Hey I am Aung Htet Nyein
+        </h1></a
+      >
+      <p class="mt-4 text-2xl text-red-500 italic">a web developer</p>
+    </section>
 
     <section
       class="w-screen h-screen bg-gray-800 flex flex-col justify-center items-center"
     >
-      <h1 class="text-5xl text-white font-bold">Hey I am Aung Htet Nyein</h1>
-      <p class="mt-4 text-2xl text-red-500 italic">a web developer</p>
+      <h1 class="text-5xl text-white font-bold">Let's work together...</h1>
+      <p class="mt-4 text-2xl text-gray-200 italic">
+        How do you take your coffee
+      </p>
+
+      <div class="text-white mt-8 flex gap-8">
+        <span>
+          <i class="fab fa-facebook-square"></i>
+          <span>Facebook</span>
+        </span>
+        <span>
+          <i class="fab fa-github"></i>
+          <span>Github</span>
+        </span>
+        <span>
+          <i class="fab fa-twitter"></i>
+          <span>Twitter</span>
+        </span>
+        <span>
+          <i class="fas fa-at"></i>
+          <span>Send a mail</span>
+        </span>
+        <span>
+          <i class="fas fa-mobile-alt"></i>
+          <span>Call me</span>
+        </span>
+      </div>
     </section>
     <!--
 
